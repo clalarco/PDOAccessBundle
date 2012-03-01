@@ -19,7 +19,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Haycia\PDOAccessBundle\Doctrine\DBAL\Driver\PDOMdbLib;
+namespace Clalarco\PDOAccessBundle\Doctrine\DBAL\Driver\PDOMdbLib;
 
 /**
  * The PDO-based Dblib driver.
