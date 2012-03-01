@@ -28,8 +28,8 @@ Add the following lines into deps file:
 
 ```
 [ClalarcoPDOAccessBundle]
-    git=https://github.com/clalarco/ClalarcoPDOAccessBundle.git
-    target=/bundles/Clalarco/PDOAccessBundle
+    git=git://github.com/clalarco/PDOAccessBundle.git
+    target=/bundles/Clalarco/PDOAccessBundle 
     version=origin/master
 ```
 
@@ -40,7 +40,7 @@ Register it in the `autoload.php` file:
 // app/autoload.php
 
 $loader->registerNamespaces(array(
-    'Clalarco'          => __DIR__.'/../vendor/bundles/Clalarco',
+    'Clalarco'          => __DIR__.'/../vendor/bundles',
 ));
 ```
 
